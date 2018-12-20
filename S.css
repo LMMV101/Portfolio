@@ -1,0 +1,139 @@
+#HM{background-color:cornflowerblue;}
+/* Voor Alles*/
+body {
+    background-image: url("willian-justen-de-vasconcellos-603962-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: large;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.flex-item {
+    border: 1px solid lightyellow;
+    width: 5cm;
+    height: 5cm;
+
+}
+
+h1 {
+    color: mediumblue;
+}
+
+article {
+    color: lightyellow;
+}
+
+/* Extra ( niet voor gebruik)
+#MVP h1{Background-color:magenta;
+ position:sticky;
+    max-height:250px;
+    max-width:250px;
+    -webkit-transition: max-height 2.0s, max-width 2s;
+    -moz-transition:max-height 2.0s, max-width 2s;
+    transition:max-height 2.0s, max-width 2s;
+}
+#MVP h1:hover{
+      opacity:0.5;
+    
+   height:auto;
+}
+#MVP1{text-align:left;
+     background-color:bisque;}
+#MVP2{margin-left:4cm;
+background-color:bisque;}
+#MVP3{margin-left:7cm;
+     background-color:lightskyblue;}*/
+
+/* voor HomePage*/
+#Menu {
+
+    background-color: mediumslateblue;
+    max-height: 10px;
+    max-width: 25px;
+    border-radius: 10%;
+    overflow: hidden;
+
+    -webkit-transition: max-height 2.0s, max-width 2s;
+    -moz-transition: max-height 2.0s, max-width 2s;
+    transition: max-height 2.0s, max-width 2s;
+
+}
+
+#Menu.closed {
+
+    border-radius: 10%;
+    max-height: 10px;
+    max-width: 25px;
+    overflow: hidden;
+}
+
+#Menu.open {
+    height: 5cm;
+    width: 10%;
+    max-height: 5cm;
+    max-width: 10%;
+    border-radius: 10%;
+}
+
+#Menu #X {
+    max-height: 1cm;
+    max-width: 1cm;
+    background-color: lightyellow;
+    margin-top: 1cm;
+    padding: 0% 45% 3% 0%;
+    margin-left: 1px;
+}
+
+#Menu #Y {
+    max-height: 1cm;
+    max-width: 1cm;
+    background-color: lightyellow;
+    margin-top: 1px;
+    padding: 0% 45% 3% 0%;
+    margin-left: 1px;
+}
+
+#Menu #Z {
+    max-height: 1cm;
+    max-width: 1cm;
+    background-color: lightyellow;
+    margin-top: 1px;
+    margin-left: 1px;
+    padding: 0% 45% 3% 0%;
+
+}
+
+.BG-Image {
+}
+
+.flex-item {
+    border-radius: 3%;
+    width: auto;
+}
+
+/* Kennis*/
+
+#KB {
+    background-image: url("willian-justen-de-vasconcellos-603962-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
